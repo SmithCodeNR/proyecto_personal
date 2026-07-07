@@ -31,11 +31,11 @@
             <!--caja de login y Registro-->
             <div class="CajaLoginRegistro">
                 <!--formulario de inicio-->
-                <form action="" class="FormularioLogin">
+                <form action="login_usuario_backend.php" method="POST" class="FormularioLogin">
                     <h2>Inicio Sesion</h2>
-                    <input type="text" placeholder="ingrese nombre" required>
-                    <input type="text" placeholder="ingrese correo" required>
-                    <input type="password" placeholder="ingrese contraseña" required>
+                    <input type="text" placeholder="ingrese nombre" required name="nombre">
+                    <input type="text" placeholder="ingrese correo" required name="correo">
+                    <input type="password" placeholder="ingrese contraseña" required name="password">
                     <button>Entrar</button>
                 </form> 
                 <!--formulario de registro-->
